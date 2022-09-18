@@ -1,0 +1,13 @@
+GAMMA DISTRIBUTION:
+
+gamma function G(a) = integrate_0_to_inf ( x^(a-1) * e^x) dx
+Using integration by parts, G(a) = (a-1) * G(a-1)
+Ex, G(4)= 3!  , G(6)= 5!
+
+gamma distribution GD(y | alpha,beta) = (beta^alpha)/G(alpha) * y^(alpha-1) * e^(-beta*y) 
+
+
+CHI SQUARED DISTRIBUTION:
+
+Y = sigma_1_to_n (Zi)^2   such that Zi is N(0,1) then Y has chi squared distribution.
+Mean = degrees of freedom = n       Variance = 2*degrees of freedom = 2n   ---> Just memo them ryt now bcz they are used in JL Lemma prrof
